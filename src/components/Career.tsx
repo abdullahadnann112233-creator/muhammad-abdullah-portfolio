@@ -30,7 +30,8 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>1st Semester</h4>
-                <h5>3.18 GPA</h5>
+                <h5>NUST</h5>
+                {/* <h5>3.18 GPA</h5> */}
               </div>
               <h3>2025-26</h3>
             </div>
