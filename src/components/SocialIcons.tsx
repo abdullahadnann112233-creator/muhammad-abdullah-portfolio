@@ -5,9 +5,9 @@ import {
   // FaYoutube,  // Removed
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
-//import { TbNotes } from "react-icons/tb";
+import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
-//import HoverLinks from "./HoverLinks";
+import HoverLinks from "./HoverLinks";
 
 const SocialIcons = () => {
   useEffect(() => {
@@ -99,9 +99,9 @@ const SocialIcons = () => {
           </a>
         </span>
       </div>
-     {/*a
+     <a
         className="resume-button"
-        href="/Akash_Malhotra.pdf"
+        href="images/Resume.pdf"
         target="_blank"
         rel="noreferrer"
       >
@@ -110,7 +110,7 @@ const SocialIcons = () => {
           <TbNotes />
         </span>
       </a>
-      */}
+      
     </div>
   );
 };

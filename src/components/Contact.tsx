@@ -24,7 +24,7 @@ const Contact = () => {
               NUST University - (2025-2029)
             </p>
             <p>
-              MECHATRONIS STUDENT
+              MECHATRONIC STUDENT
             </p>
           </div>
           <div className="contact-box">
