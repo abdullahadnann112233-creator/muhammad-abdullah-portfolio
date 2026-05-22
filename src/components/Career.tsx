@@ -16,13 +16,22 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>2nd Semester Student</h4>
+                <h4>2nd Semester</h4>
                 <h5>NUST</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2026</h3>
             </div>
             <p>
-              Currently working on some projects of my subjects.
+              <h5>SMART HOME AUTOMATION SYSTEM :</h5>
+              
+              Developed a Smart Home Automation System that can be controlled via voice commands and a web interface, enabling remote control of household appliances.<br></br>
+              <h5>QUADCOPTER DRONE :</h5>
+              
+
+Designed and built a basic Drone prototype, focusing on flight mechanics, motor control, and stability concepts, gaining hands-on experience in aerial system design and control.<br>
+</br>
+<h5>RECTIFIER-RLC FILTER :</h5>
+Constructed a Rectifier circuit (AC to DC conversion) along with an RLC filter circuit to reduce noise and smooth output signal, demonstrating understanding of power electronics and signal filtering.
             </p>
           </div>
 

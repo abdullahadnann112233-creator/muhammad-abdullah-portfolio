@@ -68,7 +68,7 @@ Live site: [https://akashrmalhotra.netlify.app/](https://akashrmalhotra.netlify.
 │   │   ├── MainContainer.tsx  # Main page composition
 │   │   ├── Navbar.tsx
 │   │   ├── TechStack.tsx
-│   │   ├── WhatIDo.tsx
+│   │   ├── IDo.tsx
 │   │   └── Work.tsx
 │   ├── context/               # Global providers (loading state, etc.)
 │   ├── data/                  # Static data/content definitions
