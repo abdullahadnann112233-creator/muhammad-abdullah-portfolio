@@ -327,5 +327,8 @@
 
   .work-image img {
     max-height: 250px;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
   }
 }
