@@ -325,10 +325,20 @@
     padding: 30px 0;
   }
 
+  /* ── IMAGE WRAPPER AND INNER FIXES ── */
+  .carousel-image-wrapper,
+  .work-image,
+  .work-image-in {
+    width: 100% !important; /* Is se content mobile ki poori width lega */
+    max-width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
   .work-image img {
-    max-height: 250px;
+    max-height: 350px; /* Height thodi badi ki hai taake drawing saaf dikhe */
     width: 100% !important;
     height: auto !important;
-    object-fit: contain !important;
+    object-fit: contain !important; /* Image ka ratio kharab nahi hoga */
   }
 }
