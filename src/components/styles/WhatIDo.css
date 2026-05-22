@@ -390,6 +390,7 @@
   .what-box-in {
     margin-left: 0px;
     height: 450px;
+    overflow: visible;
   }
 
   .what-content h5,
@@ -415,7 +416,15 @@
 
   .what-noTouch:hover,
   .what-content-active {
+    min-height: 67%;
+    height: auto;
     padding: 10px 30px;
+    overflow: visible;
+  }
+
+  .what-content-in {
+    overflow: visible;
+    height: auto;
   }
 
   .what-tags {
@@ -425,6 +434,9 @@
   .what-noTouch:hover ~ .what-content,
   .what-box-in:hover .what-noTouch:not(:hover),
   .what-content.what-sibling {
+    min-height: 33%;
+    max-height: 33%;
+    overflow: hidden;
     padding: 5px 30px;
   }
 
