@@ -19,6 +19,7 @@
 
 .work-container {
   margin: auto;
+  padding: 0 20px;
 }
 
 /* ── Carousel ── */
@@ -143,11 +144,11 @@
 }
 
 .carousel-arrow-left {
-  left: -70px;
+  left: 20px;
 }
 
 .carousel-arrow-right {
-  right: -70px;
+  right: 20px;
 }
 
 /* ── Dot Indicators ── */
@@ -278,6 +279,7 @@
 
   .carousel-info {
     width: 100%;
+    flex-wrap: wrap;
   }
 
   .carousel-image-wrapper {
@@ -326,6 +328,8 @@
   }
 
   .work-image img {
-    max-height: 250px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
   }
 }
