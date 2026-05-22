@@ -42,7 +42,7 @@
 .what-content {
   width: 450px;
   height: 65%;
-  min-height: 50%;
+  min-height: auto;
   transition: 0.5s;
   /* border: 0.5px dashed rgba(255, 255, 255, 0.3); */
   position: relative;
