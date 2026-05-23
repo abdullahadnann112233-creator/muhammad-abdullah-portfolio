@@ -15,7 +15,7 @@ const projects = [
   {
     title: "Rectifier-RLC Filter",
     category: "Electrical Circuit",
-    image: "/images/Rectifier.JPG",
+    image: "/images/Rectifier.png",
     link: "https://drive.google.com/file/d/1vRJJYTdGGXTBcQziaWYGIvI_56w5qazR/view?pli=1",
   },
   // {
