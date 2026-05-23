@@ -13,14 +13,14 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+  "/images/auto.png",
+  "/images/cpp.png",
+  "/images/python.png",
+//   "/images/aurduino.png",
+//   "/images/mongo.webp",
+//   "/images/mysql.webp",
+  "/images/aurduino.png",
+  "/images/solidwork.jpg",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -167,15 +167,15 @@ const TechStack = () => {
   }, []);
 
   return (
-    <div className="stack">
-      <h2> stack</h2>
+    <div className="techstack">
+      <h2> My Techstack</h2>
 
       <Canvas
         shadows
         gl={{ alpha: true, stencil: false, depth: false, antialias: false }}
         camera={{ position: [0, 0, 20], fov: 32.5, near: 1, far: 100 }}
         onCreated={(state) => (state.gl.toneMappingExposure = 1.5)}
-        className="-canvas"
+        className="tech-canvas"
       >
         <ambientLight intensity={1} />
         <spotLight

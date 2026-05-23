@@ -27,7 +27,7 @@ Live site: [https://akashrmalhotra.netlify.app/](https://akashrmalhotra.netlify.
 - Custom cursor, hover interactions, and scroll-driven visual effects.
 - Organized component architecture with dedicated utilities and style modules.
 
-## Tech Stack
+<!-- ## Tech Stack -->
 
 ### Core
 
