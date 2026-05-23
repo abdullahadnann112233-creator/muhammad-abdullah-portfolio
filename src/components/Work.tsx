@@ -12,13 +12,12 @@ const projects = [
     // tools: "Motors, Linkages, Gripper Design",
   },
 
-  // {
-  //   title: "Whatsapp Automation",
-  //   category: "WABA Application",
-  //   tools: "WhatsApp Business API, Workflow Automation, Notifications",
-  //   image: "/images/whatsapp.png",
-  //   link: "https://whatsapp.callhq.ai",
-  // },
+  {
+    title: "Rectifier-RLC Filter",
+    category: "Electrical Circuit",
+    image: "/images/Rectifier.JPG",
+    link: "/images/Vidrectifier.MOV",
+  },
   // {
   //   title: "Broki",
   //   category: "Real Estate Platform for FnB Industry",
