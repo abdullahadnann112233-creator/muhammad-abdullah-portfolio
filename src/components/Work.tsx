@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
+// import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
@@ -8,7 +8,7 @@ const projects = [
     title: "AUTOCAD Project",
     category: "Robot Gripper Mechanism",
     image: "/images/autocad.png",
-    link: "/images/autocad.pdf",
+    pdfLink: "/images/autocad.pdf",
     // tools: "Motors, Linkages, Gripper Design",
   },
 
@@ -16,7 +16,8 @@ const projects = [
     title: "Rectifier-RLC Filter",
     category: "Electrical Circuit",
     image: "/images/Rectifier.png",
-    link: "https://drive.google.com/file/d/1vRJJYTdGGXTBcQziaWYGIvI_56w5qazR/view?pli=1",
+    pdfLink: "/images/autocad.pdf",
+    videoLink: "https://drive.google.com/file/d/1vRJJYTdGGXTBcQziaWYGIvI_56w5qazR/view?pli=1",
   },
   // {
   //   title: "Broki",
@@ -117,12 +118,43 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage
-                        image={project.image}
-                        alt={project.title}
-                        link={project.link}
-                      />
+                    <div className="flip-card">
+                      <div className="flip-card-inner">
+
+                        {/* FRONT */}
+                        <div className="flip-card-front">
+                          <img src={project.image} alt={project.title} />
+                        </div>
+
+                        {/* BACK */}
+                        <div className="flip-card-back">
+
+                          {project.pdfLink && (
+                            <a
+                              href={project.pdfLink}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="flip-btn"
+                            >
+                              View Report
+                            </a>
+                          )}
+
+                          {project.videoLink && (
+                            <a
+                              href={project.videoLink}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="flip-btn"
+                            >
+                              View Video
+                            </a>
+                          )}
+
+                        </div>
+                      </div>
                     </div>
+                  </div>
                   </div>
                 </div>
               ))}
