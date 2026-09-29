@@ -16,6 +16,22 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
+                <h4>3rd Semester</h4>
+                <h5>NUST</h5>
+              </div>
+              <h3>2026</h3>
+            </div>
+            <p>
+              <h5>Currently Studying</h5>
+              
+              
+              
+            </p>
+          </div>
+
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
                 <h4>2nd Semester</h4>
                 <h5>NUST</h5>
               </div>
