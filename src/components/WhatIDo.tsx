@@ -93,15 +93,15 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>Robotics</h3>
-              <h4>Turning Ideas into Functional Robots & Mechanisms</h4>
+              {/* <h4>Turning Ideas into Functional Robots & Mechanisms</h4> */}
               <p>
-                Building projects in robotics, automation, and electronics while learning mechanical design and programming to solve practical engineering problems.
+                {/* Building projects in robotics, automation, and electronics while learning mechanical design and programming to solve practical engineering problems. */}
               </p>
               <h5>Skillset & Tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Arduino &amp; Microcontrollers</div>
-                <div className="what-tags">Sensors</div>
-                <div className="what-tags">Robotics</div>
+                {/* <div className="what-tags">Sensors</div> */}
+                {/* <div className="what-tags">Robotics</div> */}
                 <div className="what-tags">Programming (Python, C++, C, Embedded C)</div>
                 {/* <div className="what-tags">Electronics</div> */}
                 <div className="what-tags">AutoCAD</div>
@@ -134,7 +134,7 @@ const WhatIDo = () => {
               <h3>AUTOMATION</h3>
               {/* <h4>Automation</h4> */}
               <p>
-                I have a strong foundation in electrical circuit analysis, object-oriented programming in C++, and embedded systems programming. I am proficient in using SolidWorks for mechanical design and simulation, enabling me to create efficient and functional designs for various applications.
+                {/* I have a strong foundation in electrical circuit analysis, object-oriented programming in C++, and embedded systems programming. I am proficient in using SolidWorks for mechanical design and simulation, enabling me to create efficient and functional designs for various applications. */}
 
               </p>
               <h5>Skillset & tools</h5>
