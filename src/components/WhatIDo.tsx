@@ -100,7 +100,7 @@ const WhatIDo = () => {
               <h5>Skillset & Tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Arduino &amp; Microcontrollers</div>
-                {/* <div className="what-tags">Sensors</div> */}
+                <div className="what-tags">Sensors</div>
                 {/* <div className="what-tags">Robotics</div> */}
                 <div className="what-tags">Programming (Python, C++, C, Embedded C)</div>
                 {/* <div className="what-tags">Electronics</div> */}
