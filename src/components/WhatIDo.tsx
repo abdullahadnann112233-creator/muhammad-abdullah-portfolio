@@ -92,7 +92,7 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>Robotics & Automation</h3>
+              <h3>Robotics</h3>
               <h4>Turning Ideas into Functional Robots & Mechanisms</h4>
               <p>
                 Building projects in robotics, automation, and electronics while learning mechanical design and programming to solve practical engineering problems.
@@ -131,8 +131,8 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              {/* <h3>BUILD &amp; SCALE</h3> */}
-              <h4>Automation</h4>
+              <h3>AUTOMATION</h3>
+              {/* <h4>Automation</h4> */}
               <p>
                 I have a strong foundation in electrical circuit analysis, object-oriented programming in C++, and embedded systems programming. I am proficient in using SolidWorks for mechanical design and simulation, enabling me to create efficient and functional designs for various applications.
 
