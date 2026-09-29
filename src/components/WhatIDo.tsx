@@ -103,7 +103,7 @@ const WhatIDo = () => {
                 <div className="what-tags">Sensors</div>
                 <div className="what-tags">Robotics</div>
                 <div className="what-tags">Programming (Python, C++, C, Embedded C)</div>
-                <div className="what-tags">Electronics</div>
+                {/* <div className="what-tags">Electronics</div> */}
                 <div className="what-tags">AutoCAD</div>
               </div>
               <div className="what-arrow"></div>
@@ -111,7 +111,7 @@ const WhatIDo = () => {
           </div>
 
           {/* Second Block Commented Out */}
-          {/*
+          
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 1)}
@@ -131,26 +131,26 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              {/* <h3>BUILD &amp; SCALE</h3> */}
+              <h4>Automation</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                I have a strong foundation in electrical circuit analysis, object-oriented programming in C++, and embedded systems programming. I am proficient in using SolidWorks for mechanical design and simulation, enabling me to create efficient and functional designs for various applications.
+
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Electric Circuit Analysis</div>
+                <div className="what-tags">OOPS C++</div>
+                {/* <div className="what-tags">REST &amp; real-time APIs</div> */}
+                <div className="what-tags">Embedded C</div>
+                <div className="what-tags">SolidWorks</div>
+                {/* <div className="what-tags">React</div> */}
+                {/* <div className="what-tags">Cloud &amp; infra</div> */}
               </div>
               <div className="what-arrow"></div>
             </div>
           </div>
-          */}
+         
 
         </div>
       </div>
