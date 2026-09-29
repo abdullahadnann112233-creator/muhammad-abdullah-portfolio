@@ -229,7 +229,7 @@
 
 .what-content-in {
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .what-content-in h5 {
